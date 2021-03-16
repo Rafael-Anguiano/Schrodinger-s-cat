@@ -16,7 +16,7 @@ Developted an Arduino project to simulate a sensor for a cat's door.
 Pin **8** as **OUTPUT**, and conected to the *Anode* of a LED
 
 ```C++
-    pinMode(8, OUTPUT)
+    pinMode(8, OUTPUT);
 ```
 
 The *Cathode* of the **LED** must be connected with a resistor to the **GND** of the Arduino.
